@@ -1,0 +1,19 @@
+{
+  "name": "ypc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "jade": "^1.11.0",
+    "request": "^2.81.0",
+    "wikidata-entity-lookup": "^2.1.0"
+  }
+}

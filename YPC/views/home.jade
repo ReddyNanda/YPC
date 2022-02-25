@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+  body
+    h1 Distance Finder
+      form#login-form(action='/distance', method='get')
+        p.text-center(style="color:red")=message
+          p.field
+            | Start:
+            span * 
+            input(type='text', name='start', required='')
+         
+          p.field
+            | End:
+            span * 
+            &nbsp;&nbsp;
+            input(type='text', name='end', required='')
+          
+          p.field 
+            | The distance is #{distance} KM
+
+          
+          p.field
+            input.click(type='submit', value='Submit')
